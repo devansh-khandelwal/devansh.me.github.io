@@ -1,0 +1,364 @@
+* {
+  background-color: rgb(243, 226, 232);
+}
+
+/* nav {
+  padding-left: 400px;
+  padding-top: 30px;
+  font-family: cursive;
+  color: rgb(10, 0, 191);
+} */
+/* nav{
+  display: flex;
+  align-items: center;
+} */
+.navbar {
+  padding-top: 100px;
+  width: 45vw;
+  /* border: 2px solid blue; */
+  font-size: 1.2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.navhome,
+.navabout,
+.navcontact,
+.navprojects {
+  color: rgb(10, 0, 191);
+}
+
+.navhome:hover {
+  color: rgb(252, 108, 133);
+}
+
+.navabout:hover {
+  color: rgb(252, 108, 133);
+}
+
+.navcontact:hover {
+  color: rgb(252, 108, 133);
+}
+
+.navprojects:hover {
+  color: rgb(252, 108, 133);
+}
+
+.circular--landscape {
+  display: inline-block;
+  /* width: 250px; */
+  width: 30%;
+  height: 300px;
+  /* left: 825px; */
+  /* top: 25spx; */
+}
+.content {
+  /* border: 2px solid red; */
+  width: 100%;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.content_2 {
+  width: 50%;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+}
+.Home {
+  width: 100vw;
+  /* border: 2px solid blue; */
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+.circular--landscape img {
+  width: 100%;
+  height: 100%;
+}
+.hello {
+  /* position: relative; */
+  line-height: 50px;
+  text-align: center;
+  font-size: 25px;
+  /* right: -30px; */
+  color: rgb(252, 108, 133);
+}
+.name {
+  /* position: relative; */
+  text-align: center;
+  line-height: 70px;
+  font-size: 45px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.dscr {
+  /* position: relative; */
+  text-align: center;
+  line-height: 50px;
+  font-size: 45px;
+  /* left: 110px; */
+  /* bottom: 135px; */
+  font-family: Georgia;
+  font-weight: bold;
+}
+.home_1 {
+  width: 100%;
+}
+.about_2 {
+  display: flex;
+  width: 100vw;
+}
+.about_3 {
+  width: 50vw;
+  /* border: 2px solid red; */
+}
+.about img {
+  /* position: relative;
+  width: 500px;
+  height: 500px;
+  bottom: -60px;
+  left: 20px; */
+  height: 500px;
+  width: 100%;
+}
+.upperHalf {
+  height: 50%;
+}
+.lowerHalf {
+  height: 30%;
+  display: flex;
+}
+.right_side {
+  width: 50%;
+}
+.left_side {
+  width: 50%;
+}
+.upper_side {
+  height: 50%;
+  /* border: 2px solid purple; */
+}
+.lower_side {
+  height: 50%;
+  /* border: 2px solid brown; */
+}
+.upper_side1 {
+  height: 50%;
+  /* border: 2px solid orange; */
+}
+.lower_side1 {
+  height: 50%;
+  /* border: 2px solid green; */
+}
+.about {
+  width: 50vw;
+  /* border: 2px solid black; */
+}
+
+.about_me {
+  /* position: relative;
+  width: 50px;
+  height: 50px;
+  bottom: 420px;
+  left: 550px; */
+  color: rgb(252, 108, 133);
+  font-size: 1.5em;
+}
+.line0 {
+  /* position: relative;
+  width: 50px;
+  height: 50px;
+  bottom: 360px;
+  left: 430px; */
+  font-size: 3em;
+  color: rgb(10, 0, 191);
+}
+.line1 {
+  /* position: relative;
+  width: 50px;
+  height: 50px;
+  bottom: 320px;
+  left: -56px; */
+  color: rgb(53, 57, 53);
+}
+.line2 {
+  /* position: relative;
+  width: 50px;
+  height: 50px;
+  bottom: 330px;
+  left: 462px; */
+  color: rgb(53, 57, 53);
+}
+.line3 {
+  /* position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 305px;
+    left: -130px; */
+  color: rgb(53, 57, 53);
+}
+.line4 {
+  /* position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 280px;
+    right: 537px; */
+  color: rgb(53, 57, 53);
+}
+.acc {
+  position: relative;
+   top: 20px; 
+  color: rgb(252, 108, 133);
+}
+.fullname {
+  /* position: relative;
+    left: 360px;
+    bottom: 285px; */
+  font-weight: bold;
+}
+.devansh {
+  position: relative;
+  top: 18px;
+  right: 80px;
+  color: rgb(53, 57, 53);
+}
+.phone {
+  /* position: relative;
+  left: 420px; */
+  color: rgb(53,255,218);
+  position: relative;
+   top: 20px;
+  bottom: 260px;
+}
+.phone_no {
+  /* position: relative; */
+  font-weight: bold;
+  /* left: 420px;
+    bottom: 285px; */
+}
+.number{
+  /* position: relative;
+    left: 420px;
+    bottom: 285px; */
+    position: relative;
+  top: 18px;
+  right: 120px;
+  color: rgb(53, 57, 53);
+}
+.email {
+  color: rgb(255, 191, 0);
+  position: relative;
+    top: 10px;
+}
+.email_add {
+ position: relative;
+ bottom: 10px;
+  font-weight: bold;
+}
+.mail {
+  position: relative;
+  left: 42px;
+  bottom: 23px;
+  color: rgb(53, 57, 53);
+}
+/* .git {
+  position: relative;
+    left: 220px;
+    bottom: 215px;
+} */
+.github {
+  position: relative;
+  left: 45px;
+  top: 13px;
+  font-weight: bold;
+}
+.gitlink {
+  position: relative;
+  left: 45px;
+  top: 13px;
+  color: rgb(53, 57, 53);
+}
+.skills {
+  width: 100vw;
+  /* border: 2px solid green; */
+}
+.my_skills {
+  /* position: relative;
+    left: 550px;
+    bottom: 200px;
+    font-size: 2em; */
+  color: rgb(252, 108, 133);
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+.skills_img {
+  /* position: relative;
+    bottom: 120px; */
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 90vw;
+  align-items: center;
+}
+.my_projects {
+  width: 100vw;
+  /* border: 2px solid red; */
+}
+.projects {
+  /* position: relative;
+    left: 550px;
+    bottom: 350px; */
+  font-size: 2em;
+  color: rgb(10, 0, 191);
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+.projects_img {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 90vw;
+}
+.pdf{
+  padding-left: 700px;
+  bottom: 50px;
+}
+.repo_link {
+  /* position: relative;
+    left: 200px;
+    bottom: 400px; */
+    width: 50px;
+    height: 50px;
+}
+.repo_link1{
+  width: 100%;
+  height: 100%;
+}
+.column_1 {
+  /* color: white; */
+  text-decoration: white;
+  width: 33%;
+  background-color: rgb(209, 215, 226);
+  height: 40px;
+  text-align: center;
+}
+.column_2 {
+  color: white;
+  width: 33%;
+  background-color: rgb(225, 48, 108);
+  text-align: center;
+}
+.column_3 {
+  color: white;
+  width: 33%;
+  background-color: rgb(135, 179, 152);
+  text-align: center;
+}
